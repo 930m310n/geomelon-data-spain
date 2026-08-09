@@ -46,6 +46,20 @@ The raw JSON is still available directly if you'd rather roll your own queries:
 const data = require('@geomelon/spain/data.json')
 ```
 
+## FAQ
+
+**Q: I want live geographical city data with multiple translations available, where do I get that from?**
+Use the Geomelon API — a live, searchable database of cities, countries, and regions — see the [API Docs](https://geomelon.dev/api-docs/) or try it on [RapidAPI](https://rapidapi.com/hom3chuk/api/geomelon).
+
+**Q: I want geo data on all countries, where do I get that?**
+For other countries as static npm packages, see the growing list at [Data Packages](https://geomelon.dev/data-packages/). If you want every country in one place right now instead of installing packages one at a time, use the [Geomelon API](https://geomelon.dev/api-docs/).
+
+**Q: I need a simple way to implement city autocomplete in multiple languages, how do I do that?**
+Use the [Geomelon Free City Autocomplete API](https://geomelon.dev/free-city-autocomplete-api/) — keyless, prefix search, pre-built for this exact use case.
+
+**Q: I want to integrate geo data into our product, what libraries can I use?**
+See [geomelon.dev/libraries](https://geomelon.dev/libraries/) for the full list. Official clients: [TypeScript](https://github.com/930m310n/typescript) (`geomelon` on npm), [Python](https://github.com/930m310n/python) (`geomelon` on PyPI), [React](https://github.com/930m310n/geomelon-react) (`geomelon-react` on npm).
+
 ## License
 
 The data (`data.json`) is dedicated to the public domain under [CC0 1.0](./LICENSE) — free to use, no attribution required. The loader code (`index.js`/`index.d.ts`) is MIT-licensed. See [ATTRIBUTION.md](./ATTRIBUTION.md) for the data's (optional) credit line.
