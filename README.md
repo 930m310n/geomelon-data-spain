@@ -1,6 +1,6 @@
 # @geomelon/spain
 
-City, region, and country data for **Spain** — 19423 cities across 17 regions, with names translated into 50 languages, sourced from Wikidata.
+City, region, and country data for **Spain** — 24019 cities across 19 regions, with names translated into 50 languages, sourced from Wikidata.
 
 ## Install
 

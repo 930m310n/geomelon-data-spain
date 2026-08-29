@@ -1,7 +1,7 @@
 {
   "name": "@geomelon/spain",
-  "version": "1.0.1",
-  "description": "Geomelon city/region/country data for Spain — 19423 cities, multilingual names, sourced from Wikidata.",
+  "version": "1.0.2",
+  "description": "Geomelon city/region/country data for Spain — 24019 cities, multilingual names, sourced from Wikidata.",
   "keywords": [
     "geomelon",
     "cities",
